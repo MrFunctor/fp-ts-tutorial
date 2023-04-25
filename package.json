@@ -1,0 +1,22 @@
+{
+  "name": "fp-ts-tutorial",
+  "version": "1.0.0",
+  "author": "MrFunctor",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "ts-node-dev --transpile-only --quiet --exit-child --respawn ./index.ts",
+    "typecheck": "tsc"
+  },
+  "dependencies": {
+    "fp-ts": "2.14.0",
+    "ts-adt": "2.1.2"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "~5.0.4"
+  },
+  "packageManager": "yarn@3.5.0"
+}
